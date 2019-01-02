@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -18,7 +19,6 @@
   "dependencies": {
     "actions-on-google": "^2.5.0",
     "body-parser": "^1.18.3",
-    "dialogflow-fulfillment": "^0.6.1",
     "ejc": "^1.0.4",
     "ejs": "^2.6.1",
     "express": "^4.16.4"
