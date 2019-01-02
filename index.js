@@ -3,9 +3,8 @@ var express = require("express");
 var app = express();
 
 app.get("/",function(req,res){
-	res.send('<h1>This is my web app</h1>');
+	res.send('<h1>I LOVE BUBU BUT YOU HAVE TO GO AND POMPOM AND NOT SLEEP PLEASE!</h1>');
 });
-
 
 	var listener = app.listen(process.env.PORT,process.env.IP,function(){
 		console.log("server has started");
